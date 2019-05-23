@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+{% block title %}WildMapsWS!{% endblock %}
+
+
+{% block body %}
+    <div class="jumbotron text-center">
+        <h1>WildMapsWS</h1>
+        <p>Bienvenue sur notre site , nous esperons que .......</p></div>
+
+
+
+    <div class="container">
+
+        <h2>Les derniers itineraires</h2>
+
+        <div class="row flex">
+            {% for itineraire in itineraires %}
+
+                <div class="col-3">
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+
+                                <a href="{{ path('itineraire.show',{id : itineraire.id , slug : itineraire.slug}) }}">{{ itineraire.nom }}({{ itineraire.pays }})</a>
+                                
+                            </h5>
+
+                            <p class="card-text">{{ itineraire.ville }}({{ itineraire.activite }})</p>
+                                <div class="text-primary">Note : {{ itineraire.note}}</div>
+                            <div class="text-primary">Prix : {{ itineraire.prix }}€</div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+{% endblock %}

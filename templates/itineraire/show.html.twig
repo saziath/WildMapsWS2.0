@@ -1,0 +1,77 @@
+{% extends 'base.html.twig' %}
+
+{% block title itineraire.pays %}
+
+{% block body %}
+
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <col-md-8>
+
+                </col-md-8>
+
+                <col-md-4>
+                    <h1>
+                        {{ itineraire.nom }}
+                    </h1>
+                    <h4>
+                        pays: {{ itineraire.pays }}
+                        ville: {{ itineraire.ville}}.<br>
+                        activite: {{ itineraire.activite }}.<br>
+                        note: {{ itineraire.note }}
+                        <p>
+                            {{ itineraire.description | nl2br }}
+                        </p>
+                        <div class="text-primary"style="font-size: 2rem;font-weight: bold;">{{ itineraire.prix }}€</div>
+                        <a href="#" class="btn btn-primary">Contact</a>
+                    </h4>
+
+
+                </col-md-4>
+            </div>
+
+        </div>
+    </div>
+
+<div class="container mt-4 ">
+
+
+    <dic class="row">
+        <div class="col-md-8">
+            <table class="table table-striped">
+                <h2>Caracteristique:</h2>
+
+                <tr><td>pays:</td>
+                 <td>{{ itineraire.pays }}</td></tr>
+                <tr> <td>ville:</td>
+               <td>{{ itineraire.ville }}</td></tr>
+                <tr><td>activite:</td>
+                 <td>{{ itineraire.activite }}</td></tr>
+                <tr><td>note:</td>
+                 <td>{{ itineraire.note }}</td></tr>
+                <tr><td>Description:</td>
+                  <td>{{ itineraire.description }}</td></>
+                <tr> <td>hotel:</td>
+                <td>{{ itineraire.hotel}}</td></>
+                <tr> <td>Prix:</td>
+                <td>{{ itineraire.prix}}</td></tr>
+
+            </table>
+
+        </div>
+    <div class="col-md-8">
+
+        </div>
+    </dic>
+
+
+
+    <nav class="nav nav-tabs" id="tab"></nav>
+
+
+</div>
+
+
+{% endblock %}
+
