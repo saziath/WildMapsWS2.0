@@ -18,7 +18,8 @@ class HomeController extends AbstractController{
     public function index(ItineraireRepository $repository):Response
     {
 
-        $itineraires = $repository->findByCountry('SA');
+       // $itineraires = $repository->findByName('premier');
+        $itineraires = $repository->findAll();
 
         return  $this->render('pages/home.html.twig',[
 
