@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6232df89-af38-4382-9a0b-fd32c82cf2fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Security/login.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WildMapsWS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WildMapsWS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2e76d096-554f-4cea-b119-c1acedfce31a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2e76d096-554f-4cea-b119-c1acedfce31a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/itineraire/ShowByPays.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ItineraireController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ItineraireController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/itineraire/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/itineraire/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/home.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,12 +71,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Itineraire.php">
+        <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="357">
+              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
               <folding>
-                <element signature="e#30#62#0#PHP" expanded="true" />
+                <element signature="e#33#73#0#PHP" expanded="true" />
+                <element signature="e#621#643#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/pages/home.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
+              <folding>
+                <element signature="e#617#632#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,8 +98,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="272">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="29" column="165" selection-start-line="29" selection-start-column="165" selection-end-line="29" selection-end-column="165" />
+              <folding>
+                <element signature="e#1135#1151#0#Twig" expanded="true" />
+                <element signature="e#1502#1524#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/itineraire/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="62" column="71" selection-start-line="62" selection-start-column="71" selection-end-line="62" selection-end-column="71" />
+              <folding>
+                <element signature="e#12#26#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="das://2e76d096-554f-4cea-b119-c1acedfce31a/schema/wildmapsdatabase/table/itineraire">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="8fb78601-d7d9-46d0-88bb-8e5699be9e06">
+              <filtering>
+                <filter text="" />
+              </filtering>
+              <column-attributes>
+                <column name="pays" position="3" />
+                <column name="ville" position="4" />
+                <column name="billet_davion" position="5" />
+                <column name="hotel" position="6" />
+                <column name="activite" position="7" />
+                <column name="description" position="8" />
+                <column name="commentaire" position="9" />
+                <column name="prix" position="10" />
+                <column name="note" position="11" />
+                <column name="nom" position="2" />
+              </column-attributes>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/itineraire/ShowByPays.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -110,80 +173,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/ItineraireController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="285">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
-                <element signature="e#1370#1376#0#Twig" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/pages/home.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="44" />
-              <folding>
-                <element signature="e#617#632#0#Twig" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="77" selection-start-line="77" selection-end-line="78" />
-              <folding>
-                <element signature="e#30#62#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-              <folding>
-                <element signature="e#34#99#0#PHP" expanded="true" />
-                <element signature="e#317#343#1#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Security/login.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
-              <folding>
-                <element signature="e#172#177#0#Twig" expanded="true" />
+                <element signature="e#34#60#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,14 +190,20 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>h1</find>
-      <find>find</find>
       <find>userName</find>
       <find>userna</find>
       <find>getr</find>
+      <find>http://google.com</find>
+      <find>maro</find>
+      <find>finda</find>
+      <find>find</find>
+      <find>mar</find>
+      <find>ivoi</find>
     </findStrings>
     <replaceStrings>
       <replace>h1</replace>
       <replace>username</replace>
+      <replace>127.0.0.1:8000/pays</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -210,20 +212,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/itineraire/index.html.twig" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/templates/pages/home.html.twig" />
         <option value="$PROJECT_DIR$/src/Repository/ItineraireRepository.php" />
         <option value="$PROJECT_DIR$/templates/itineraire/show.html.twig" />
         <option value="$PROJECT_DIR$/templates/admin/itineraire.edit.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/Admin/AdminItinerairecontroller.php" />
-        <option value="$PROJECT_DIR$/src/Controller/ItineraireController.php" />
         <option value="$PROJECT_DIR$/templates/admin/itineraire.index.html.twig" />
         <option value="$PROJECT_DIR$/config/packages/twig.yaml" />
         <option value="$PROJECT_DIR$/templates/admin/itineraire/__form.html.twig" />
         <option value="$PROJECT_DIR$/templates/admin/itineraire/new.html.twig" />
         <option value="$PROJECT_DIR$/templates/admin/itineraire/edit.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/HomeController.php" />
         <option value="$PROJECT_DIR$/src/Controller/Admin/AdminItineraireController.php" />
         <option value="$PROJECT_DIR$/templates/admin/itineraire/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Entity/Itineraire.php" />
@@ -234,7 +232,13 @@
         <option value="$PROJECT_DIR$/config/packages/security.yaml" />
         <option value="$PROJECT_DIR$/src/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" />
+        <option value="$PROJECT_DIR$/src/Controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/templates/pages/home.html.twig" />
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/ItineraireController.php" />
+        <option value="$PROJECT_DIR$/templates/itineraire/ShowByPays.html" />
+        <option value="$PROJECT_DIR$/templates/itineraire/ShowByPays.php" />
+        <option value="$PROJECT_DIR$/templates/itineraire/index.html.twig" />
       </list>
     </option>
   </component>
@@ -349,7 +353,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="978" />
     <option name="y" value="1" />
     <option name="width" value="950" />
@@ -419,20 +423,7 @@
               <item name="WildMapsWS" type="b2602c69:ProjectViewProjectNode" />
               <item name="WildMapsWS" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WildMapsWS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WildMapsWS" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="itineraire" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WildMapsWS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WildMapsWS" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="Security" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -486,15 +477,16 @@
       <updated>1558512317591</updated>
       <workItem from="1558512318958" duration="4643000" />
       <workItem from="1558517239390" duration="183000" />
-      <workItem from="1558517538803" duration="54956000" />
+      <workItem from="1558517538803" duration="62093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59782000" />
+    <option name="totallyTimeSpent" value="66919000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11247335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -514,8 +506,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.14517877" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.14517877" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.14517877" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -525,7 +517,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="SciView" order="8" />
-      <window_info anchor="right" id="Database" order="9" visible="true" weight="0.11940298" />
+      <window_info active="true" anchor="right" id="Database" order="9" visible="true" weight="0.11940298" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,27 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="41" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://2e76d096-554f-4cea-b119-c1acedfce31a/schema/wildmapsdatabase/table/itineraire">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="8fb78601-d7d9-46d0-88bb-8e5699be9e06">
-          <filtering>
-            <filter text="" />
-          </filtering>
-          <column-attributes>
-            <column name="pays" position="3" />
-            <column name="ville" position="4" />
-            <column name="billet_davion" position="5" />
-            <column name="hotel" position="6" />
-            <column name="activite" position="7" />
-            <column name="description" position="8" />
-            <column name="commentaire" position="9" />
-            <column name="prix" position="10" />
-            <column name="note" position="11" />
-            <column name="nom" position="2" />
-          </column-attributes>
         </state>
       </provider>
     </entry>
@@ -579,13 +550,6 @@
     <entry file="file://$PROJECT_DIR$/templates/admin/itineraire.index.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/itineraire/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Form/ItineraireType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -600,32 +564,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/itineraire/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#h4#0;n#col-md-4#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/admin/itineraire/__form.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="9" selection-start-line="23" selection-start-column="53" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <element signature="e#33#73#0#PHP" expanded="true" />
-            <element signature="e#539#561#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -635,19 +577,6 @@
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="e#34#60#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ItineraireController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
-          <folding>
-            <element signature="e#34#60#0#PHP" expanded="true" />
-            <element signature="e#1065#1093#0#PHP" expanded="true" />
-            <element signature="e#1547#1564#0#PHP" expanded="true" />
-            <element signature="e#1482#1509#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -691,34 +620,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/itineraire/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="20" selection-start-line="28" selection-start-column="47" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <element signature="e#561#582#0#Twig" expanded="true" />
-            <element signature="e#709#732#0#Twig" expanded="true" />
-            <element signature="n#STYLE#0;n#form#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://2e76d096-554f-4cea-b119-c1acedfce31a/schema/wildmapsdatabase/table/migration_versions">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="8fb78601-d7d9-46d0-88bb-8e5699be9e06">
           <filtering>
             <filter text="" />
           </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/home.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="44" />
-          <folding>
-            <element signature="e#617#632#0#Twig" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,6 +645,13 @@
           <filtering>
             <filter text="" />
           </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -769,13 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
@@ -786,10 +693,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php">
+    <entry file="file://$PROJECT_DIR$/templates/itineraire/Boots.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="707">
+          <caret line="460" column="7" selection-end-line="460" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -803,13 +710,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
+          <folding>
+            <element signature="e#617#632#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <element signature="e#33#73#0#PHP" expanded="true" />
+            <element signature="e#621#643#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/itineraire/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="29" column="20" selection-start-line="28" selection-start-column="47" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/itineraire/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ItineraireController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#34#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/itineraire/ShowByPays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="489">
+          <caret line="29" column="165" selection-start-line="29" selection-start-column="165" selection-end-line="29" selection-end-column="165" />
           <folding>
-            <element signature="e#1370#1376#0#Twig" expanded="true" />
+            <element signature="e#1135#1151#0#Twig" expanded="true" />
+            <element signature="e#1502#1524#0#Twig" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/itineraire/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="62" column="71" selection-start-line="62" selection-start-column="71" selection-end-line="62" selection-end-column="71" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2e76d096-554f-4cea-b119-c1acedfce31a/schema/wildmapsdatabase/table/itineraire">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="8fb78601-d7d9-46d0-88bb-8e5699be9e06">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <column-attributes>
+            <column name="pays" position="3" />
+            <column name="ville" position="4" />
+            <column name="billet_davion" position="5" />
+            <column name="hotel" position="6" />
+            <column name="activite" position="7" />
+            <column name="description" position="8" />
+            <column name="commentaire" position="9" />
+            <column name="prix" position="10" />
+            <column name="note" position="11" />
+            <column name="nom" position="2" />
+          </column-attributes>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,139 @@
+/* style.css */
+body{
+	margin: 0px;
+	color: rgb(20,20,20);
+	background: rgb(245,245,245);
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	color: #4267B2;
+	font-family:'Lobster', cursive;
+}
+h2{
+	color: black;
+	font-family:'Lobster', cursive;
+
+}
+p{
+	top: 30px;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+#Titre{
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	color: white;
+	background: url("img/carte.png");
+}
+
+.feature{
+	font-weight: 300xp;
+	padding: 40px;
+}
+
+.feature img {
+	 padding: 20px;
+	 border: 2px solid black;
+	 border-radius: 50%;
+
+}
+
+#my-footer {
+	padding: 30px;
+	background: rgb(30,30,30);
+	color: lightgrey;
+}
+* {
+    box-sizing: border-box;
+}
+
+.map {
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.map__image {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    right:280px;
+    bottom: 0;
+	/*width: 50%;
+	float: left;
+*/
+}
+
+.map__image svg {
+    width: 100%;
+    height: 350px;
+}
+
+.map__image path {
+    fill: #415F77;
+    stroke: #769cb5;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+}
+
+.map__image path:hover{
+	fill: #3538d2;
+}
+
+
+.map__image .is-active path {
+    fill: #FC5050;
+}
+
+/* Liste
+   ========================================================================== */
+
+.map__list {
+    float: right;
+    width: 180px;
+    border-left: 1px solid #dbdbdb;
+}
+
+.map__list ul, .map__list li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.map__list a {
+    padding-left: 10px;
+    display: inline-block;
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    color: inherit;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.map__list a.is-active {
+    color: #3538d2;
+    /*background-color: #f4f4f4; 
+	*/
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 720px){
+    .map__list {
+        float: none;
+        width: 100%;
+        border-left: 1px solid #dbdbdb;
+    }
+    .map__image{
+        padding: 10px;
+        position: static;
+        width: 100%;
+    }
+}
